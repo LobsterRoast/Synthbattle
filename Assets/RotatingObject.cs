@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Planet : MonoBehaviour
+public class RotatingObject : MonoBehaviour
 {
     public float vel = 1f;
     private Rigidbody rb;
