@@ -1,0 +1,114 @@
+{
+    "name": "InputActions",
+    "maps": [
+        {
+            "name": "Gameplay",
+            "id": "25de8ebd-ce7d-41d7-8650-cb4924abdbec",
+            "actions": [
+                {
+                    "name": "Fire",
+                    "type": "Button",
+                    "id": "eaf0a3ed-ab9b-470e-ab35-da05159b2a23",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Move",
+                    "type": "PassThrough",
+                    "id": "fa3d76db-7d9d-4b10-a0ab-231e1218e22d",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "2a2f7ef0-a2b3-4c2e-8a75-64df0e0efebf",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";MouseKeyboard",
+                    "action": "Fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "df7c0c98-b68d-4ad0-8c03-31fecad2566d",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";MouseKeyboard",
+                    "action": "Fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "2D Vector",
+                    "id": "b40b65c2-2980-48f4-bf33-f29de16bd8ab",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "left",
+                    "id": "041d5834-17c5-499d-bd71-5f6f18e9c1c0",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";MouseKeyboard",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "6cb1624d-9613-41fb-b1a2-da7968bf66bc",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";MouseKeyboard",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "New Control Scheme",
+            "bindingGroup": "New Control Scheme",
+            "devices": []
+        },
+        {
+            "name": "MouseKeyboard",
+            "bindingGroup": "MouseKeyboard",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": true,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "Touchscreen",
+            "bindingGroup": "Touchscreen",
+            "devices": []
+        }
+    ]
+}
