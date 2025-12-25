@@ -5,7 +5,12 @@ TagManager:
   serializedVersion: 3
   tags:
   - Planet
-  - ParticleRotator
+  - EnemyRotator
+  - Health
+  - Score
+  - EnemyProjectileRotator
+  - ProjectileRotator
+  - HighScore
   layers:
   - Default
   - TransparentFX
@@ -14,10 +19,10 @@ TagManager:
   - Water
   - UI
   - Enemy
-  - 
-  - 
-  - 
-  - 
+  - Projectile
+  - Killbox
+  - EnemyProjectile
+  - Player
   - 
   - 
   - 

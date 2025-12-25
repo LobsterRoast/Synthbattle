@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 8039256354138065983}
   - component: {fileID: 2731107031131119895}
   - component: {fileID: 8919982559964068207}
-  m_Layer: 7
-  m_Name: StandardProjectile
+  m_Layer: 9
+  m_Name: EnemyProjectile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -66,7 +66,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 769cd69d79a5adc49aabe0a62a7a210e, type: 2}
+  - {fileID: 2100000, guid: 248b06a54d835cb48a19dc89ad4b4cf8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -100,7 +100,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 084044b1d41667f4c876afaa91723b49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vel: 0.005
   damage: 10
 --- !u!135 &8919982559964068207
 SphereCollider:
